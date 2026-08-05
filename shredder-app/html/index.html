@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>感情のゴミ箱 - マインド・シュレッダー</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="mainContainer">
+        <h1>🗑️ 感情のゴミ箱</h1>
+        <p>今のモヤモヤやイライラを思いきり書き殴ってください。</p>
+        
+        <div class="shredder-area" id="shredderArea">
+            <textarea id="emotionText" placeholder="ここに感情を吐き出す..."></textarea>
+            <div id="particleContainer"></div>
+        </div>
+        
+        <!-- 追加: 文字数とレベルの表示 -->
+        <div class="status-bar">
+            <span id="charCount">0 文字</span>
+            <span id="levelIndicator">レベル: -</span>
+        </div>
+
+        <button id="shredBtn">シュレッダーにかける</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
