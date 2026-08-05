@@ -37,7 +37,7 @@ shredder/
 Windows または Mac をご利用の場合は、**Docker Desktop** を起動し、エンジンが稼働中（Engine running）になっていることを確認してください。
 
 ### 3. コンテナのビルドと起動
-ターミナル（またはコマンドプロンプト、PowerShell）を開き、プロジェクトのルートディレクトリ（`shredder-app`）に移動して以下のコマンドを実行します。
+ターミナル（またはコマンドプロンプト、PowerShell）を開き、プロジェクトのルートディレクトリ（`shredder）に移動して以下のコマンドを実行します。
 
 ```bash
 docker-compose up -d
