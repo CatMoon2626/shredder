@@ -24,7 +24,7 @@
 プロジェクトのディレクトリ構成が以下のようになっていることを確認してください。
 
 ```text
-shredder-app/
+shredder/
 ├── docker-compose.yml
 ├── Dockerfile
 └── html/
