@@ -1,7 +1,0 @@
-services:
-  shredder-web:
-    build: .
-    container_name: emotion-shredder
-    ports:
-      - "8080:80"
-    restart: unless-stopped
